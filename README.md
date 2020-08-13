@@ -1,1 +1,1 @@
-# proyectoNumerico
+# Metodos numericos
