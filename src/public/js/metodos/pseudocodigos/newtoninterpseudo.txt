@@ -3,6 +3,16 @@
 
 Leer X, Y
 
+
+Mientras que (i<Longitud(X))
+    Mientras que (j<i+1)
+        D[i][j] = ((D[i][j - 1] - D[i - 1][j - 1])/(X[i] - X[i - j]))
+        Si (i=j)
+            b[i] = D[i][j]
+        fin si
+    fin mientras que
+fin mientras que
+
 bla = ""
 str = D[0][0] + " "
 
